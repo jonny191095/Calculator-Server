@@ -29,10 +29,6 @@ public class CalculatorController {
     @Autowired
     private ValidationService validationService;
 
-    //Authenticate request is from calculator
-    //Rate limit
-    //Switch out 4 endpoints for a single "Calculate" endpoint
-
     @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping(value = "add")
     public double add(@RequestBody final CalculatorDto calculatorDto) throws InvalidInputException {
