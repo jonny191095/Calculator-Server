@@ -1,3 +1,6 @@
+Server component of a simple calculator built with Java and Springboot.
+Pairs with https://github.com/jonny191095/Calculator-UI
+
 To run the Calculator-Server app locally for testing follow these steps:
  - git clone https://github.com/jonny191095/Calculator-Server.git
  - Open in IDE (eg Intellij)
